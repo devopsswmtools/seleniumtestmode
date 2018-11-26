@@ -16,7 +16,7 @@ public class FacebookLogin {
 	
 	public void loginBrowser() { 
 		
-		System.setProperty("webdriver.gecko.driver", "/Users/devsahaosx/eclipse-workspace/MES_JAR/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/Users/dir/eclipse-workspace/MES_JAR/geckodriver");
 		
 		//System.setProperty("webdriver.firefox.marionette","D:\\geckodriver.exe"); 
 		
