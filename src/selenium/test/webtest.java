@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 /**
- * @author devsahaosx
+ * @author devswm
  *
  */
 public class webtest {
@@ -20,7 +20,7 @@ public class webtest {
 	public static void main(String[] args) {
 		System.out.println("Hello selenium");
 
-		System.setProperty("webdriver.gecko.driver", "/Users/devsahaosx/eclipse-workspace/MES_JAR/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/Users/dir/eclipse-workspace/MES_JAR/geckodriver");
 		
 		//Standalone test mode: Good to test if your OS have UI with browser
 		// Create a new instance of the Firefox driver
