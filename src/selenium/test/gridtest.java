@@ -14,7 +14,7 @@ public class gridtest {
 	public static void main(String[]  args) throws MalformedURLException, InterruptedException{
 
  		String URL = "http://www.edureka.co";
- 		String Node = "http://169.254.110.208:4444/wd/hub";
+ 		String Node = "http://169.254.230.208:4444/wd/hub";
  		DesiredCapabilities cap = DesiredCapabilities.firefox();
 
  		driver = new RemoteWebDriver(new URL(Node), cap);
